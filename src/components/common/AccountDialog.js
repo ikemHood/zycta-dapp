@@ -187,9 +187,11 @@ const AccountDialog = ({ open, handleClose, handleLogout }) => {
                 <AccountBalanceWallet
                   fontSize="small"
                   className={classes.icon}
-                  style={{color:"white"}}
+                  style={{ color: "white" }}
                 />
-                <span style={{color:"white"}} className={classes.icon}>{NATIVE_TOKEN?.[chainId]}</span>
+                <span style={{ color: "white" }} className={classes.icon}>
+                  {NATIVE_TOKEN?.[chainId]}
+                </span>
                 <span className={classes.numbers}>
                   {ethBalance ? ethBalance?.[account]?.toExact(4) : "0"}
                 </span>
