@@ -15,76 +15,22 @@ export const TOKEN_ADDRESS = {
 	STMx: {
 		324: "0x577e09A9385092BdcE0d0C3b5C980589c42b4A29",
 	},
-	Tst: {
-		80001: "0x884A73e3507592C078d5dB791299a2eB646AA665",
-	},
-	STT: {
-		80001: "0x3eECde42973B0b5157e81e14caDCfe22700B6Bea",
-	},
-	WMATIC: {
-		80001: "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
-	},
-	PBR: {
-		1: "0x298d492e8c1d909D3F63Bc4A36C66c64ACB3d695",
-		4: "0xf6c9FF0543f932178262DF8C81A12A3132129b51",
-		56: "0x1D1cB8997570e73949930c01Fe5796C88d7336c6",
-	},
-	USDT: {
-		1: "0xdac17f958d2ee523a2206206994597c13d831ec7",
-		4: "0xe687b0a94c3A20540552d981cD311a6812759dF8",
-	},
 	USDC: {
-		1: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-		4: "0x4dbcdf9b62e891a7cec5a2568c3f4faf9e8abe2b",
 		280: "0x0faF6df7054946141266420b43783387A78d82A9",
-	},
-	// ETH: {
-	//   1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-	//   4: "0xc778417e063141139fce010982780140aa0cd5ab",
-	// },
-	PWAR: {
-		56: "0x16153214E683018D5aA318864c8e692b66E16778",
-		97: "0x16153214E683018D5aA318864c8e692b66E16778",
-	},
-	CORGIB: {
-		56: "0x1cfd6813a59d7b90c41dd5990ed99c3bf2eb8f55",
-		97: "0xE428Cc8A06Cdba0ad5074180f8E80ec6D4083b24",
-	},
-	BNB: {
-		56: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-		97: "0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F",
 	},
 };
 
 export const NATIVE_TOKEN_ADDRESS: { [index: string]: string } = {
-	// 1: TOKEN_ADDRESS.ETH[1],
-	// 4: TOKEN_ADDRESS.ETH[4],
-	// 56: TOKEN_ADDRESS.BNB[56],
-	// 97: TOKEN_ADDRESS.BNB[97],
-	// 80001: TOKEN_ADDRESS.WMATIC[80001],
 	324: TOKEN_ADDRESS.WETH[324],
 	280: TOKEN_ADDRESS.WETH[280],
-	// 324: TOKEN_ADDRESS.ETH[324]
 };
 
 export const ROUTER_ADDRESS: { [index: string]: string } = {
-	// 1: "0xFF0e9437818258BDEdd1aA374095968ABC82a9E2",
-	// 4: "0x541E97cC33aF16586fB544812b39F1663C3FD779",
-	// 97: "0xCb4Ea1E2f7561edD414AF09d2df308986d4d7a29",
-	// 56: "0x8547e2E16783Fdc559C435fDc158d572D1bD0970",
-	// 80001: "0xb4903E541Bde5C915edD1CE9be817eAE92918147"
-	// 80001: "0xA25e4a127356556a6f02898dF917c1d842B19dEe"
 	324: "0x384978feF31e0d4EF4659ff506931Bd3873CC74A",
 	280: "0x1d4A7FE16374321be8B20A79E7F5Bd817b798E09",
 };
 
 export const FACTORY_ADDRESS = {
-	// 1: "0xf5d8E98ef1f66f1cAb949A2555837FE755fc2D68",
-	// 4: "0x628cf8e2A079C6D9bDd0293125273F71EA3d74Ec",
-	// 97: "0xAeE1F15957C6c7AbDF245527b6497E96bDB17091",
-	// 56: "0xDda79Ec4AF818D1e95F0A45B3E7e60461d5228cb",
-	// 80001: "0xCcDEB3653D58ab48A1e44724F5243007954d8426"
-	// 80001:"0x6552da8c60a0ac0807b60ac997120f4ce0ab337b"
 	324: "0x4f5F42348aD0Ccc99C77b30F9003272ce315aCfa",
 	280: "0x1E91543c155A317Da61f1B2A2782DE2bf7f956c2",
 };
@@ -97,11 +43,6 @@ export const FARM_ADDRESS: { [index: string]: string } = {
 };
 
 export const MULTICALL_ADDRESS: { [index: string]: string } = {
-	// 1: "0x3a2Bd96Da4B14C30918aE0fC0E784E2F56120F1d",
-	// 4: "0x6c4f9282bBD29992bF4F064F0165e805336Eef59",
-	// 97: "0x688EC8C059592104fC713E0dA9276e649302C4Ab",
-	// 56: "0x6e568FcE995F5c7ddaFB8C0b74B3241328498F8A",
-	// 80001:"0xd85620D66D32952b97764dF14302498006Cf90fB"
 	324: "0xd9Ee4c1e04059D4B0dd02b747282511bEE4E5fB5",
 	280: "0xd9Ee4c1e04059D4B0dd02b747282511bEE4E5fB5",
 };
@@ -125,11 +66,6 @@ export const STMx = "STMx";
 export const WETH = "WETH";
 
 export const NATIVE_TOKEN: { [index: number]: string } = {
-	// 1: ETH,
-	// 4: ETH,
-	// 97: BNB,
-	// 56: BNB,
-	// 80001:WMATIC
 	324: WETH,
 	280: WETH,
 	// 324: ETH
@@ -143,22 +79,12 @@ export const FARM_TOKEN: { [index: number]: string } = {
 };
 
 export const DEFAULT_SWAP_TOKENS = {
-	// 1: ["ETH", "PBR"], // token0 token1
-	// 4: ["ETH", "PBR"],
-	// 97: ["BNB", "PWAR"],
-	// 56: ["BNB", "PBR"],
-	// 80001: ["WMATIC", "STT"]
 	324: ["WETH", "STMx"],
 	280: ["WETH", "USDC"],
 	// 324: ["ETH", "STMx"]
 };
 
 export const DEFAULT_POOL_TOKENS = {
-	// 1: ["ETH", "PBR"], // token0 token1
-	// 4: ["ETH", "PBR"],
-	// 97: ["BNB", "PWAR"],
-	// 56: ["BNB", "PBR"],
-	// 80001:["WMATIC", "STT"]
 	324: ["WETH", "USDC"],
 	280: ["WETH", "USDC"],
 	// 324: ["ETH", "STMx"]
@@ -179,18 +105,13 @@ export const mumbainetwork = "mumbai";
 export const zksyncNetwork = "zksync";
 
 export const supportedChains = [
-	1, 4, 1285, 1287, 97, 56, 137, 80001, 280, 324, 1666700000, 1666600000,
+	280, 324
 ];
 
 export const allowanceAmount = "9999999999999999999999999";
 export const corgibAllowance = "999999999999999999999999999999999999";
 
 export const BLOCK_EXPLORER = {
-	1: "https://etherscan.io",
-	4: "https://rinkeby.etherscan.io",
-	56: "https://bscscan.com",
-	97: "https://testnet.bscscan.com",
-	80001: "https://mumbai.polygonscan.com/",
 	324: "https://explorer.zksync.io/",
 	280: "https://explorer.zksync.io/",
 };
@@ -200,9 +121,6 @@ export const nullAddress = "0x0000000000000000000000000000000000000000";
 export const timeframeOptions = {
 	WEEK: "1 week",
 	MONTH: "1 month",
-	// THREE_MONTHS: "3 months",
-	// YEAR: "1 year",
-	// HALF_YEAR: "6 months",
 	ALL_TIME: "All time",
 };
 
@@ -331,24 +249,10 @@ export const REWARD_TOKEN_PER_YEAR = {
 	56: PWAR_PER_YEAR,
 };
 
-export const BASE_URL =
-	process.env.NODE_ENV && process.env.NODE_ENV === "development"
-		? process.env.REACT_APP_DEVELOPMENT_URL
-		: process.env.REACT_APP_PRODUCTION_URL;
+export const BASE_URL = window.location.origin.includes("localhost")? "http://localhost:3000" : window.location.origin;
 
 export const SWAP_BASES: { [index: string]: Array<string> } = {
-	1: ["USDT", "USDC", "ETH"],
-	4: ["USDT", "USDC", "ETH"],
-	1285: [],
-	1287: [],
-	97: ["BNB", "USDT", "USDC"],
-	56: ["BNB"],
-	137: [],
-	80001: ["WMATIC", "STT"],
 	324: ["WETH", "STMx", "ETH"],
-	// 324: ["ETH", "STMx"],
-	1666700000: [],
-	1666600000: [],
 };
 
 export const NetworkContextName = "NETWORK";
