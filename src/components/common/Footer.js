@@ -50,7 +50,7 @@ const Footer = () => {
       </a>
       <a
         className={classes.item}
-        href="https://github.com/cyclese96"
+        href="https://github.com/zycta"
         target="_blank"
         rel="noreferrer"
       >
@@ -58,7 +58,7 @@ const Footer = () => {
       </a>
       <a
         className={classes.item}
-        href="https://twitter.com/realpolkabridge"
+        href="https://twitter.com/zyctafinance"
         target="_blank"
         rel="noreferrer"
       >
@@ -66,7 +66,7 @@ const Footer = () => {
       </a>
       <a
         className={classes.item}
-        href="https://t.me/polkabridgegroup"
+        href="https://t.me/zyctafinance"
         target="_blank"
         rel="noreferrer"
       >
@@ -74,7 +74,7 @@ const Footer = () => {
       </a>
       <a
         className={classes.item}
-        href="https://discord.gg/tzemFksyZB"
+        href="https://discord.com/invite/cpX2Dwczxg"
         target="_blank"
         rel="noreferrer"
       >
@@ -82,21 +82,21 @@ const Footer = () => {
       </a>
       <a
         className={classes.item}
-        href="https://polkabridge.org"
+        href="https://zycta-finance.com/"
         target="_blank"
         rel="noreferrer"
       >
         Landing Page
       </a>
 
-      <div className={classes.ankrLabel}>
+      {/* <div className={classes.ankrLabel}>
         <img
           src="https://assets.coingecko.com/coins/images/4324/small/U85xTl2.png?1608111978"
           alt="Ankr"
           className={classes.icon}
         />
         RPC powered by ANKR protocol
-      </div>
+      </div> */}
     </div>
   );
 };

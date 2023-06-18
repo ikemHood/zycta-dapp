@@ -43,13 +43,6 @@ export const ALL_SUPPORTED_CHAIN_IDS: SupportedChainId[] = Object.values(
 ).filter((id) => typeof id === "number") as SupportedChainId[];
 
 export const MULTICALL_ADDRESS: { [index: string]: string } = {
-	// 1: "0x3a2Bd96Da4B14C30918aE0fC0E784E2F56120F1d",
-	// 4: "0x6c4f9282bBD29992bF4F064F0165e805336Eef59",
-	// 5: "0xD64c0FBEe803AfB35ed721a3E67261e1a41f86c5",
-	// 97: "0x688EC8C059592104fC713E0dA9276e649302C4Ab",
-	// 56: "0x6e568FcE995F5c7ddaFB8C0b74B3241328498F8A",
-	// 137: "0xbfB508313126cf61CFb3BD7e570cC79C67998A53",
-	// 80001: "0xd85620D66D32952b97764dF14302498006Cf90fB"
 	324: "0x7082C0A96921669fCbc73c1C072e205f991e1383",
 	280: "0x7082C0A96921669fCbc73c1C072e205f991e1383",
 };
@@ -88,11 +81,25 @@ export const NETWORK_DETAILS = {
 		chainId: `0x${SupportedChainId.ZKERA.toString(16)}`,
 		chainName: CHAIN_IDS_TO_NAMES[SupportedChainId.ZKERA],
 		chainRaw: SupportedChainId.ZKERA,
+		nativeCurrency: {
+			name: "ETH",
+			symbol: "ETH",
+			decimals: 18,
+		},
+		rpcUrls: BSC_TESTNET_NODES,
+		blockExplorerUrls: [`https://explorer.zksync.io/`],
 	},
 	TZKERA: {
 		chainId: `0x${SupportedChainId.TZKERA.toString(16)}`,
 		chainName: CHAIN_IDS_TO_NAMES[SupportedChainId.TZKERA],
 		chainRaw: SupportedChainId.TZKERA,
+		nativeCurrency: {
+			name: "ETH",
+			symbol: "ETH",
+			decimals: 18,
+		},
+		rpcUrls: BSC_TESTNET_NODES,
+		blockExplorerUrls: [`https://explorer.zksync.io/`],
 	},
 	POLYGON_MUMBAI: {
 		chainId: `0x${SupportedChainId.POLYGON_MUMBAI.toString(16)}`,
