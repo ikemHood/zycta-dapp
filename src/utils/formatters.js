@@ -19,9 +19,9 @@ export const formatDollarAmount = (num, digits) => {
 };
 
 export const formatCurrency = (value, precision = 1) => {
-  if (!value) {
-    return "0";
-  }
+  // if (!value) {
+  //   return "0";
+  // }
 
   const formatter = new Intl.NumberFormat("en-US", {
     style: "currency",

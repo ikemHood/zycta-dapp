@@ -13,20 +13,11 @@ import { useMemo } from "react";
 import { PairState, usePairs } from "./usePairs";
 import { ETH, NATIVE_TOKEN, SWAP_BASES } from "../constants/index";
 import { wrappedCurrency } from "./wrappedCurrency";
-import tokenListLocalRinkeby from "../tokenList/tokenListTest.json";
-import tokenListEthereum from "../tokenList/tokenListEthereum.json";
-import tokenListBsc from "../tokenList/tokenListBsc.json";
-import tokenListMatic from "../tokenList/tokenListMatic.json";
 import tokenListZk from "../tokenList/tokenListZk.json";
 import useActiveWeb3React from "../hooks/useActiveWeb3React";
 import { getAddress } from "@ethersproject/address";
 
 const localTokens: { [index: string]: Array<any> } = {
-	// 1: tokenListEthereum,s
-	// 4: tokenListLocalRinkeby.ethereum,
-	// 97: tokenListLocalRinkeby.bsc,
-	// 56: tokenListBsc,
-	// 80001: tokenListMatic
 	280: tokenListZk,
 };
 

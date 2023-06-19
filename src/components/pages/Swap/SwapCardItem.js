@@ -136,7 +136,7 @@ const SwapCardItem = (props) => {
               ""
             )}
             <p className={classes.labelFont}>
-              Balance:
+              Balance: {"  "}
               {formatCurrency(!currenryBalance ? "0" : currenryBalance)}
             </p>
           </div>

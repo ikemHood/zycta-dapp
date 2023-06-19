@@ -44,7 +44,7 @@ export const ALL_SUPPORTED_CHAIN_IDS: SupportedChainId[] = Object.values(
 
 export const MULTICALL_ADDRESS: { [index: string]: string } = {
 	324: "0x7082C0A96921669fCbc73c1C072e205f991e1383",
-	280: "0x7082C0A96921669fCbc73c1C072e205f991e1383",
+	280: "0xF7f71b155bEdaa351F9C2bF0D9a4BA7556dDe716",
 };
 
 export const NATIVE_TOKEN: { [index: number]: string } = {

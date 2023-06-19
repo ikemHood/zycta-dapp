@@ -18,7 +18,7 @@
   },
   {
     "name": "Zksync Era",
-    "symbol": "ETH",
+    "symbol": "WETH",
     "address": "0x20b28B1e4665FFf290650586ad76E977EAb90c5D",
     "decimals": 18,
     "chainId": 280,
@@ -41,8 +41,8 @@
     "logoURI": "https://i.ibb.co/rGJ8WyX/eth-logo.png"
   },
   {
-    "name": "Wbtc",
-    "symbol": "Wbtc",
+    "name": "wBTC",
+    "symbol": "wBTC",
     "address": "0x0BfcE1D53451B4a8175DD94e6e029F7d8a701e9c",
     "decimals": 18,
     "chainId": 280,

@@ -26,13 +26,13 @@ export const NATIVE_TOKEN_ADDRESS: { [index: string]: string } = {
 };
 
 export const ROUTER_ADDRESS: { [index: string]: string } = {
-	324: "0x384978feF31e0d4EF4659ff506931Bd3873CC74A",
-	280: "0x7C66469075d7cF1a9F7C6650A6aeFb1B71bFCb9B",
+	324: "0x384978feF31e0d4EF4659ff506931Bd3873CC74A", // 324: "0x384978feF31e0d4EF4659ff506931Bd3873CC74A",
+	280: "0x1d4A7FE16374321be8B20A79E7F5Bd817b798E09", // 280: "0x7C66469075d7cF1a9F7C6650A6aeFb1B71bFCb9B",
 };
 
 export const FACTORY_ADDRESS = {
-	324: "0x4f5F42348aD0Ccc99C77b30F9003272ce315aCfa",
-	280: "0xA2f0BbD9FD0Ad0aE7d6B60C548D686a9Fb39EDEc",
+	324: "0x4f5F42348aD0Ccc99C77b30F9003272ce315aCfa",	 // 324: "0x4f5F42348aD0Ccc99C77b30F9003272ce315aCfa",
+	280: "0x1E91543c155A317Da61f1B2A2782DE2bf7f956c2", // 280: "0xA2f0BbD9FD0Ad0aE7d6B60C548D686a9Fb39EDEc",
 };
 
 export const FARM_ADDRESS: { [index: string]: string } = {
@@ -66,8 +66,8 @@ export const STMx = "STMx";
 export const WETH = "WETH";
 
 export const NATIVE_TOKEN: { [index: number]: string } = {
-	324: WETH,
-	280: WETH,
+	324: ETH,
+	280: ETH,
 	// 324: ETH
 };
 
@@ -80,13 +80,13 @@ export const FARM_TOKEN: { [index: number]: string } = {
 
 export const DEFAULT_SWAP_TOKENS = {
 	324: ["WETH", "STMx"],
-	280: ["WETH", "USDC"],
+	280: ["ETH", "USDC"],
 	// 324: ["ETH", "STMx"]
 };
 
 export const DEFAULT_POOL_TOKENS = {
 	324: ["WETH", "USDC"],
-	280: ["WETH", "USDC"],
+	280: ["ETH", "DAI"],
 	// 324: ["ETH", "STMx"]
 };
 

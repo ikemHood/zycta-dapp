@@ -16,12 +16,8 @@ const AddLiquidity = lazy(() => import("./components/pages/AddLiquidity"));
 const PoolDetail = lazy(() =>
   import("./components/pages/Analytics/components/DetailsPage/PoolDetail")
 );
-const Staking = lazy(() =>
-  import("./components/pages/Stake")
-);
-const Launchpad = lazy(() =>
-  import("./components/pages/Launchpad")
-);
+const Staking = lazy(() => import("./components/pages/Stake"));
+const Launchpad = lazy(() => import("./components/pages/Launchpad"));
 const Analytics = lazy(() => import("./components/pages/Analytics/Analytics"));
 const AllTopToken = lazy(() =>
   import("./components/pages/Analytics/components/Tables/AllTopToken")
